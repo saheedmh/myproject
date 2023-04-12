@@ -1,0 +1,28 @@
+.first-content{
+    display: flex;
+    margin:10px;
+    justify-content: space-around;
+    
+}
+.text-div{
+    width: 50%;
+    margin-top:30px;
+}
+.text-div > p{
+    width: 400px;
+    padding:10px;
+    line-height: 25px;
+}
+.text-div > h2{
+    text-transform: capitalize;
+    width: 400px;
+    color:#4A8CBB;
+    padding: 10px;
+}
+.text-div > button{
+    padding:10px;
+    width: 130px;
+    background-color: #4A8CBB;
+    line-height: 20px;
+    margin-left: 13px;
+}

@@ -1,0 +1,35 @@
+.main-div{
+    width:100%;
+    height: 400px;
+}
+.firs-row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-div{
+    margin:10px;
+}
+.main-div > h1{
+margin-left: 140px;
+color:#4A8CBB;
+text-transform: capitalize;
+}
+.cols{
+    width:350px;
+    padding:10px;
+    text-align: justify;
+    
+}
+.cols  >:nth-child(2){
+    color:#4A8CBB;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.secon-row{
+    display:flex;
+    justify-content: space-around;
+}
+.fourth-row{
+    display: flex;
+}

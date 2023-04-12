@@ -1,0 +1,42 @@
+footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+    height: 200px;
+    position: relative;
+}
+.footer-text{
+    max-width: 600px;
+    margin-left:10px;
+}
+.footer-text > h1{
+  font-size: 18px;
+    margin-left: 20px;
+    width:550px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer-text > p{
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+    line-height: 25px;
+    padding: 10px;
+}
+footer::before{
+    content:"";
+    position:absolute;
+    bottom:0;
+    top:400px;
+    width: 900px;
+    border-bottom:2px solid gray;
+
+}
+ 
+ 
+footer > .social-icon{
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    width: 400px;
+}

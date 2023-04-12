@@ -1,0 +1,41 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+.navbar{
+    display: flex;
+    
+    margin:5px 10px;
+
+}
+.main-header > img{
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top:6px;
+}
+.navbar > .link{
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.btn{
+    background-color: #4A8CBB;
+    width: 120px;
+}
+.navbar > .Link{
+    margin:10px;
+    padding: 5px;
+    display: flex;
+    gap:20px;
+    text-transform: capitalize;
+}
+.staff-image{
+    display: flex;
+
+}
+.img1{
+    width: 1100px;
+    margin:0 auto;
+}
