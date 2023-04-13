@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import {Link} from 'react-router-dom';
 
 function Signuppage(){
-  const name = useRef();
+  {/**const name = useRef();
   const email = useRef();
   const number =useRef();
   const password = useRef();
@@ -34,7 +34,7 @@ const localSignUp=localStorage.getItem("login")
     }
   
   }
-
+**/}
     return ( 
       <div>
     
@@ -44,22 +44,22 @@ const localSignUp=localStorage.getItem("login")
            
            <h1>Create an account</h1>
            <p>connect with your friends today</p>
-           <input type="text"  placeholder='Enter YOur Username' ref={name}/><br />
+           <input type="text"  placeholder='Enter YOur Username' /><br />
            
-           <input type="text"  placeholder='Enter YOur Email' className='email' ref={email}/><br />
+           <input type="text"  placeholder='Enter YOur Email' className='email' /><br />
           
            
-           <input className='number' type="number" placeholder='Enter Your Phone number' ref={number}/><br />
+           <input className='number' type="number" placeholder='Enter Your Phone number' /><br />
            
-           <input type="password" name="" id="" placeholder='Enter Your Password' className='pass' ref={password}/><br></br>
+           <input type="password" name="" id="" placeholder='Enter Your Password' className='pass' /><br></br>
            
   
-           <button className='btn' onClick={handleClick}>login</button><br></br>
+           <button className='btn' >login</button><br></br>
          <span>or With</span><br /><br /><br />
 
          <button>login with facebook</button><br></br><br />
          <button id='btn-id'>login with google</button><br></br>
-         <p>Already have an account? <Link className="link" onClick={() => { navigate('/') }}>Login</Link></p>
+         <p>Already have an account? <Link className="link" >Login</Link></p>
         </form>
         </div>   
       );
