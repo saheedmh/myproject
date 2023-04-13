@@ -12,13 +12,15 @@ const Header = () => {
             
             
             
-            <Link className='link' to='about'>about</Link>
+            <Link className='link' to='/about'>about</Link>
+            <Link className='link' to='/signpage'>signUp</Link>
+            <Link className='link' to='/loginpage'>login</Link>
             
             <select name="" id=""><option value="">for you</option>
             
-            <option value="">coaches</option>
-            <option value="">students  </option>
-            <option value="">support</option>
+            <option value=""><Link to="/coaches">coaches</Link></option>
+             <option value=""><Link to="/student">students</Link>  </option>
+            <option value=""><Link to="/support">support</Link></option>
             </select>
             <button type='button' className='btn'>apply now</button>
         </div>

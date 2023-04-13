@@ -30,7 +30,7 @@ const localSignUp=localStorage.getItem("login")
       localStorage.setItem('password',password.current.value)
       localStorage.setItem('login',email.current.value)
    
-      alert("account create successfully");
+      alert("account created successfully");
     }
   
   }
@@ -39,7 +39,7 @@ const localSignUp=localStorage.getItem("login")
       <div>
     
       <div className="signup-container">
-        
+        <h1>welcome to HackYourFuture institute</h1>
         <form action="" className="signup-form">
            
            <h1>Create an account</h1>
