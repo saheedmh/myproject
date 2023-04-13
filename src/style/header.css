@@ -42,3 +42,15 @@
 Link{
     cursor: pointer;
 }
+select{
+    width: 100px;
+    outline: none;
+    margin-top:-14px;
+    border:none;
+    height: 50px;
+    color:blue;
+    
+}
+Link > :hover{
+    background-color:#4A8CBB;
+}
