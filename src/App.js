@@ -23,8 +23,10 @@ function App() {
       <Route path='/' element={<Home/>}></Route>
 
       <Route path='program' element={<Program/>}></Route>
-      <Route path='about' element={<About/>}>
-      </Route>
+      <Route path='about' element={<About/>}></Route>
+      <Route path='loginpage' element={<Loginpage/>}></Route>
+        <Route path='signpage' element={<Signuppage />}></Route>
+      
       <Route path='coaches' element={<Coaches/>}>
       </Route>
       <Route path='student' element={<Student/>}></Route>
@@ -32,8 +34,6 @@ function App() {
       
       
       
-       <Route path='loginpage' element={<Loginpage/>}></Route>
-        <Route path='signpage' element={<Signuppage/>}></Route>
        
       </Routes>
       

@@ -27,7 +27,7 @@ const  Loginpage = () => {
           <button  >login with facebook</button><br></br><br />
           <button id='btn-id'>login with google</button><br></br>
           <p>Don't have  an account?       
-          <spa><Link to="signpage" className='link'>
+          <spa><Link to="signpage{<Signuppage />}" className='link'>
           sign</Link></spa> </p> 
 
          </form>   
