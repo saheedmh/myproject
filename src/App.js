@@ -9,7 +9,7 @@ import About from './about';
 import Coaches from './coaches';
 import Student from './student';
 import Support from './support';
-
+import './App.css'
 
 function App() {
   return (
@@ -19,21 +19,21 @@ function App() {
     
     
       <Routes>
-      
-      <Route path='/' element={<Home/>}></Route>
+      <Route path='/' element={<Signuppage/>}></Route>
+       
+      <Route path='homepage' element={<Home/>}></Route>
 
       <Route path='program' element={<Program/>}></Route>
-      <Route path='about' element={<About/>}></Route>
-      <Route path='loginpage' element={<Loginpage/>}></Route>
-        <Route path='signpage' element={<Signuppage />}></Route>
-      
+      <Route path='about' element={<About/>}>
+      </Route>
       <Route path='coaches' element={<Coaches/>}>
       </Route>
       <Route path='student' element={<Student/>}></Route>
       <Route path='support' element={<Support/>}></Route>
       
+    
       
-      
+       <Route path='loginpage' element={<Loginpage/>}></Route>
        
       </Routes>
       

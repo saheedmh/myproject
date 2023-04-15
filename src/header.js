@@ -7,14 +7,14 @@ const Header = () => {
         <img src="./images/logo.png" alt="" />
         <div className="navbar">
            <div className='Link' >
-           <Link className='link' to='/' >home</Link>
-            <Link className='link' to='/program' >the program</Link>
+           <Link className='link' to='homepage' >home</Link>
+            <Link className='link' to={'/program'} >the program</Link>
             
             
-            
-            <Link className='link' to='/about'>about</Link>
-            <Link className='link' to='/signpage'>signUp</Link>
-            <Link className='link' to='/loginpage'>login</Link>
+           
+            <Link className='link' to={'/about'}>about</Link>
+            <Link className='link' to={'/'}>signUp</Link>
+            <Link className='link' to={'/loginpage'}>login</Link>
             
             <select name="" id=""><option value="">for you</option>
             

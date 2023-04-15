@@ -14,9 +14,9 @@ contact@hackyourfuture.be
 </p>
         </div>
         <div className="social-icon">
-            <a href="https://facebook.com"><FontAwesomeIcon className='icon' icon={faFacebook}/></a>
-            <a href="https://twitter.com"><FontAwesomeIcon className='icon' icon={faInstagram}/></a>
-            <a href="https://instagram.com"><FontAwesomeIcon className='icon' icon={faTwitter}/></a>
+            <FontAwesomeIcon className='icon' icon={faFacebook}/>
+            <FontAwesomeIcon className='icon' icon={faInstagram}/>
+            <FontAwesomeIcon className='icon' icon={faTwitter}/>
             </div>
            </footer>
     );
