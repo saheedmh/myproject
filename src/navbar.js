@@ -1,14 +1,26 @@
-import './App.css'
-const Navbar = () => {
-    return ( 
-        <div className="app">
-      <div className='auth-wrapper'>
-        <div className="inner-wrapper">
-          <h2> you are not loggin in</h2>
+import './style/header.css';
+import {Link} from 'react-router-dom';
+const Nav = () => {
+    return (  
+        <>
+        <div className="main-header">
+        <img src="./images/logo.png" alt="" />
+        <div className="navbar">
+           <div className='Link' >
+           <Link className='link' to='homepage' >home</Link>
+            
+            
+           
+            <Link className='link' to={'/'}>signUp</Link>
+            <Link className='link' to={'/loginpage'}>login</Link>
+            
+           </div>
         </div>
-      </div>
-      </div>
-     );
+        
+    </div>
+    </>
+    
+    );
 }
  
-export default Navbar;
+export default Nav;

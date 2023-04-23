@@ -6,7 +6,7 @@ import Home from './homepage';
 import Program from './program';
 import Header from './header';
 import About from './about';
-import Coaches from './coaches';
+
 import Student from './student';
 import Support from './support';
 import './App.css'
@@ -26,8 +26,8 @@ function App() {
       <Route path='program' element={<Program/>}></Route>
       <Route path='about' element={<About/>}>
       </Route>
-      <Route path='coaches' element={<Coaches/>}>
-      </Route>
+      
+    
       <Route path='student' element={<Student/>}></Route>
       <Route path='support' element={<Support/>}></Route>
       

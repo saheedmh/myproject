@@ -18,7 +18,7 @@ const  Loginpage = () => {
             <section>         
             <input type="checkbox"  name="" id="" value='remember me' /> <labe>Remember me</labe> 
             <br></br>
-            <a href="">forget password</a>
+            <Link>forget password</Link>
             </section>
    
             <button >login</button><br></br>

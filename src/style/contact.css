@@ -2,7 +2,7 @@
     background-color: #4A50BB;
     display: flex;
     flex-direction: row-reverse;
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 20px;
     height: 90vh;
     position: relative;

@@ -18,9 +18,9 @@ const Header = () => {
             
             <select name="" id=""><option value="">for you</option>
             
-            <option value=""><Link to="/coaches">coaches</Link></option>
-             <option value=""><Link to="/student">students</Link>  </option>
-            <option value=""><Link to="/support">support</Link></option>
+            <option value="">support</option>
+             <option value=""> alumni </option>
+            <option value="">student</option>
             </select>
             <button type='button' className='btn'>apply now</button>
         </div>

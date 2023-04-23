@@ -5,6 +5,7 @@ import {useRef, useEffect, useState} from 'react';
 import { useNavigate } from "react-router-dom";
 import {Link} from 'react-router-dom';
 
+
 function Signuppage(){
   const  [name, setName] = useState("")
   const [pass, setPass]=useState('');
@@ -51,23 +52,25 @@ const localSignUp=localStorage.getItem("login")
       
     
       <div className="signup-container">
+  
         <h1>welcome to HackYourFuture institute</h1>
         <form action="" className="signup-form" onSubmit={hadleSubmit} >
            
            <h1>Create an account</h1>
            <p>connect with your friends today</p>
-           <input type="text"  placeholder='Enter YOur Username' onChange={(e) => setName(e.target.value)}/><br />
+           <input type="text" required  placeholder='Enter YOur Username' onChange={(e) => setName(e.target.value)}/><br />
            
-           <input type="text"  placeholder='Enter YOur Email' className='email' onChange={(e) => setEmail(e.target.value)} /><br />
+           <input type="text"  required placeholder='Enter YOur Email' className='email' onChange={(e) => setEmail(e.target.value)} /><br />
           
            
-           <input type="password" name="" id="" placeholder='Enter Your Password' className='pass' onChange={(e) => setPass(e.target.value)} /><br></br>
+           <input type="password" required name="" id="" placeholder='Enter Your Password' className='pass' onChange={(e) => setPass(e.target.value)} /><br></br>
            
   
            <button className='btn-id'  >login</button><br></br>
          <span>or With</span><br /><br /><br />
 
-         <button>login with facebook</button><br></br><br />
+         <Link to="homepage"><button >login with facebook</button><br></br><br />
+</Link>
          <button id='btn-id'>login with google</button><br></br>
          <p>Already have an account? <Link className="link"  >Login</Link></p>
         </form>

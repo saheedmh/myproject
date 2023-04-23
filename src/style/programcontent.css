@@ -45,6 +45,12 @@
     margin-top:30px;
     
 }
+.seconds-cols > :nth-child(2){
+    
+    max-width: 500px;
+    margin-top:30px;
+    text-align: justify;
+}
 .first-row > h2{
     color:#4A8CBB;
     font-size: 20px;

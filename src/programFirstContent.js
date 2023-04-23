@@ -29,15 +29,14 @@ Next call for Applications: to be announced</p>
         <p>We teach motivated refugees and newcomers with limited access to education or the labor market who want to start their career in web development. The course is open to anyone staying in Belgium. Women are strongly encouraged to apply!</p>
         </div>
 <div className="checkbox-div">
-    <input type="checkbox" checked/>You’re +18 years old
+    <input type="checkbox" /> You’re +18 years old 
 <br /><br />
-    <input type="checkbox"  checked/>You’re extremely motivated to start a career in web development. <br /><br />
-    <input type="checkbox" checked />You speak English at an intermediate level. <br /><br />
-    <input type="checkbox" checked />
-You can study a minimum of 25 hours per week.
+    <input type="checkbox"  /> You’re extremely motivated to start a career in web development. <br /><br />
+    <input type="checkbox"  /> You speak English at an intermediate level. <br /><br />
+    <input type="checkbox"  /> You can study a minimum of 25 hours per week.
  <br /><br />
- <input type="checkbox" checked/>You are recognise as a refugee or writing for your recognition. <br /><br />
- <input type="checkbox" checked />You a migrant with limited access to education or the labor market.
+ <input type="checkbox" /> You are recognise as a refugee or writing for your recognition. <br /><br />
+ <input type="checkbox"  /> You a migrant with limited access to education or the labor market.
 </div>
        </div>
 
