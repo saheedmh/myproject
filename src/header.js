@@ -1,20 +1,27 @@
 import './style/header.css';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 const Header = () => {
+    const navlinkstyle =({isActive}) =>{
+ return{
+    fontWeight: isActive ? 'bold' : 'normal',
+    textDecoration:isActive ? 'underline' : 'none',
+    
+ }
+    }
     return (  
         <>
         <div className="main-header">
         <img src="./images/logo.png" alt="" />
         <div className="navbar">
            <div className='Link' >
-           <Link className='link' to='homepage' >home</Link>
-            <Link className='link' to={'/program'} >the program</Link>
+           <NavLink className='link' style={navlinkstyle} to='homepage' >home</NavLink>
+            <NavLink className='link' style={navlinkstyle} to={'/program'} >the program</NavLink>
             
             
            
-            <Link className='link' to={'/about'}>about</Link>
-            <Link className='link' to={'/'}>signUp</Link>
-            <Link className='link' to={'/loginpage'}>login</Link>
+            <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
+            <NavLink className='link' style={navlinkstyle} to={'/'}>signUp</NavLink>
+            <NavLink className='link' style={navlinkstyle} to={'/loginpage'}>login</NavLink>
             
             <select name="" id=""><option value="">for you</option>
             
