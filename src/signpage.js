@@ -72,7 +72,7 @@ const localSignUp=localStorage.getItem("login")
          <Link to="homepage"><button >login with facebook</button><br></br><br />
 </Link>
          <button id='btn-id'>login with google</button><br></br>
-         <p>Already have an account? <Link className="link"  >Login</Link></p>
+         <p>Already have an account? <Link className="link"  >sumit</Link></p>
         </form>
         </div>   
      

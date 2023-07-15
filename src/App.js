@@ -17,13 +17,10 @@ function App() {
     <div className="App">
     <Header/>
     
-    
       <Routes>
-      <Route path='homepage' element={<Home/>}></Route>
-
-      {/**<Route path='/' element={<Signuppage/>}></Route>
-       
       
+      <Route path='/' element={<Home/>}></Route>
+
       <Route path='program' element={<Program/>}></Route>
       <Route path='about' element={<About/>}>
       </Route>
@@ -31,11 +28,12 @@ function App() {
     
       <Route path='student' element={<Student/>}></Route>
       <Route path='support' element={<Support/>}></Route>
-      
+      <Route path='signpage' element={<Signuppage/>}></Route>
+       
     
       
        <Route path='loginpage' element={<Loginpage/>}></Route>
-       **/}
+       
       </Routes>
       
     

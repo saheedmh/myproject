@@ -101,3 +101,71 @@ input:focus + label{
 transform: translateY(-18px);
 color:#ff652f
 }
+@media only screen and (max-width:320px){
+.contact-div{
+    
+    margin-top:800px;
+    max-width: 320px;
+}
+.side-row{
+    
+    margin-right: 100px;
+}
+.side-row > h1{
+    font-size: 12px;
+    margin-right: 70px;
+    margin-left: -60px;
+}
+.side-row > p{
+    color:black;
+    margin-right: 45px;
+    width: 100px;
+    margin-left:-10px;
+    text-align: justify;
+}
+.contact-form{
+    max-width: 200px;
+    margin-left:45px;
+}
+textarea{
+    max-width: 180px;
+    
+}
+}
+
+@media only screen and (max-width:780px){
+    .contact-div{
+        margin-left:20px;
+        margin-top:80px;
+        width:100%;
+    }
+    .contact-form > button{
+    margin-right:30px;
+    width:100px;
+    margin-left:20px;
+    }
+    .side-row{
+        
+        margin-right: 100px;
+    }
+    .side-row > h1{
+        font-size: 12px;
+        margin-right: 70px;
+        margin-left: -60px;
+    }
+    .side-row > p{
+        color:white;
+        margin-right: 45px;
+        width: 100px;
+        margin-left:-10px;
+        text-align: justify;
+    }
+    .contact-form{
+        max-width: 200px;
+        margin-left:75px;
+    }
+    textarea{
+        max-width: 180px;
+        
+    }
+    }
