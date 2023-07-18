@@ -59,7 +59,7 @@
         padding: 10px;
         text-align: justify;
         font-size: 16px;
-        margin-left: 300px;
+        
         margin-right: 200px;
        
         
@@ -90,7 +90,7 @@
     }
 }
  
-@media only screen and (max-width:780px){
+@media only screen and (max-width:375px){
     .text-div{
      display:flex;
      flex-direction: column;
@@ -107,8 +107,9 @@
     .first-content{
         position: relative;
         min-height: 100%;
-        top:260px;
-        min-width: 100%;
+        top:70px;
+        min-width: 375px;
+        margin-top:-20px;
 
     }
     .text-div > h2 {

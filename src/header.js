@@ -1,6 +1,6 @@
 import './style/header.css';
 import React, {useState} from 'react';
-//import './style/responsiveComponent.css';
+
 import {NavLink} from 'react-router-dom';
 const Header = () => {
     const [ismobile, setIsmobile] = useState(false);
