@@ -89,9 +89,13 @@ font-size: 25px;
       display: flex;
       flex-direction: column;
       position: relative;
-      top:-30px;
+      top:-400px;
       
     
+  }
+  .main-div > .header{
+    margin-top:-330px;
+    max-width: 375px;
   }
   
   .header > h1{

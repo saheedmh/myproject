@@ -80,6 +80,16 @@ footer > .social-icon{
        cursor: pointer;
     }
 }
+footer::before{
+    content:"";
+    position:absolute;
+    bottom:0;
+    top:400px;
+    max-width: 320px;
+    border-bottom:2px solid gray;
+
+}
+
 
 @media only screen and (max-width : 320px){
     .footer{
@@ -92,11 +102,20 @@ footer > .social-icon{
         max-width: 300px;
     
     }
+    footer::before{
+        content:"";
+        position:absolute;
+        bottom:0;
+        top:400px;
+        max-width: 300px;
+        border-bottom:2px solid gray;
+    
+    }
     .footer-text{
         max-width:300px;
     
       
-      max-width:375px;
+      max-width:300px;
       margin-left:50px;
     }
     .footer-text > h1{
@@ -168,6 +187,15 @@ footer > .social-icon{
         display: flex;
         max-width: 240px;
         
+    }
+    footer::before{
+        content:"";
+        position:absolute;
+        bottom:0;
+        top:400px;
+        max-width: 350px;
+        border-bottom:2px solid gray;
+    
     }
     .icon{
        margin:0 -50px 0 -60px; 

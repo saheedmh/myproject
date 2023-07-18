@@ -16,10 +16,14 @@
     display: flex;
     justify-content: space-between;
     margin-top:20px;
+    background-image: url('../../public/images/bgrnd-image.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
 }
 .prgrm-second-col > .para{
     max-width: 500px;
     line-height: 24px;
+    color:white;
     padding: 10px;
     text-align: justify;
     margin-left: 40px;
