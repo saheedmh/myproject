@@ -74,7 +74,7 @@ Link > :hover{
     
 }
 .main-header{
-    max-width: 425px;
+    min-width: 425px;
     padding:5px;
     background: #00828c;
     display: flex;
@@ -113,21 +113,31 @@ Link > :hover{
  left:250px;
  right: 250px;
  width:100px;
+ margin-top:-100px;
+ margin-bottom: 200px;
 }
 
 .btn{
-    margin-left:170px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    color:white;
+    min-width:130px;
+    
 }
 .staff-image{
     display: flex;
     position: relative;
-    margin-top:320px;
+    margin-top:120px;
     width: 100%;
     height: 100%;
 }
 .staff-image > img{
-    width: 90%;
+    width: 360px;
     height: 180px;
+    margin-top:-200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 }
 
@@ -171,9 +181,7 @@ Link > :hover{
      width:100px;
     }
     
-    .btn{
-        margin-left:170px;
-    }
+    
     .staff-image{
         display: flex;
         position: relative;
@@ -182,52 +190,11 @@ Link > :hover{
         height: 100%;
     }
     .staff-image > img{
-        width: 90%;
+        max-width: 500px;
         height: 180px;
     }
     }
-    @media only screen and (max-width:425px){
-        .header-logo{
-            display: flex;
-            position:absolute;
-            top:15px;
-            left:20px;
-        }
-        
-        .nav-link{
-            display: none;
-        
-        }
-         .link{
-            color:white;
-            text-align: center;
-            width:100%;
-            transition:all 0.5s ease;
-        }
-        .nav-link-mobile{
-            position:absolute;
-            display: flex;
-            flex-direction: column;
-            background-color: #005469;
-            left:0;
-            top:75px;
-            transition: all 0.5s ease-out;
-            min-height: 300px;
-            width: 100%;
-        }
-        .mobile-menu-icon{
-         display:block;
-         position:absolute;
-         background-color: #00828c;
-         color:white;
-         left:250px;
-         right: 250px;
-         width:100px;
-         margin-top:-200px;
-         margin-bottom:110px;
-        }
-        
-    }
+    
 
     @media only screen and (max-width:375px){
         .header-logo{
@@ -270,7 +237,9 @@ Link > :hover{
         }
         
         .btn{
-            margin-left:170px;
+            margin-left:auto;
+            width:150px;
+            color:white;
         }
         .staff-image{
             display: flex;

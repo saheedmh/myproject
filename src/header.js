@@ -24,7 +24,7 @@ const Header = () => {
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'/loginpage'}>login</NavLink>
             
-            <button type='button' className='btn'>apply now</button>
+            <NavLink className='link' style={navlinkstyle} to={'/registercomponent'}><button type='button' className='btn'>apply now</button></NavLink>
             </div>
     <button className='mobile-menu-icon' onClick={() => setIsmobile(!ismobile)}>
     {ismobile ? (
@@ -33,7 +33,8 @@ const Header = () => {
         <i className="fa fa-bars"></i> 
     )}
 </button>
-       
+      <marquee behavior="" direction="horinzontal"><h1>Welcome To HackYourFuture Institute</h1></marquee>
+  
         </div>
         
     

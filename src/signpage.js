@@ -38,12 +38,13 @@ const Signuppage = () => {
       
     
       <div className="signup-container ">
-  
-        <h1>welcome to HackYourFuture institute</h1>
-        {login ?(       <form  onSubmit={handleSubmit} className="signup-form bg-white">
+    
+    <marquee behavior="" direction="horinzontal"><h1>welcome to HackYourFuture Institute</h1></marquee>
+ 
+      <form  onSubmit={handleSubmit} className="signup-form bg-white">
            
         
-          <h3>sign up</h3>
+          <h3>Sign Up</h3>
 
           
           <div className='form-group'>
@@ -70,7 +71,7 @@ const Signuppage = () => {
 
           
 
-          <button id="btnid" className='btn btn-primary ' id="btnId">submit</button>
+          <button  className='btn btn-primary ' id="btnId">submit</button>
           <p onClick={handleClick}>Already registered {" "} login in?</p>
 
           {flag &&(
@@ -79,10 +80,8 @@ const Signuppage = () => {
             </Alert>
           )}
         </form>
-        ):(
-          < Loginpage/>
-        )};
- 
+      
+          
         <Footer/> 
         </div>   
      

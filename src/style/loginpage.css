@@ -65,12 +65,38 @@
         margin-top:370px;
         
     }
+    .login-form{
+        margin-top:-200px;
+        width:360px;
+        margin-left:auto;
+        margin-right:auto;
+    }
     .login-form > .btn > {
         text-decoration: none;
         width: auto;
         margin-right: auto;
         margin-left:auto;
-        background-color: red;
+        
+}
+}
+@media only screen and (max-width:375px){
+    .login-container{
+        
+        margin-bottom: 200px;
+        
+    }
+    .login-form > .btn > {
+        text-decoration: none;
+        width: auto;
+        margin-right: auto;
+        margin-left:auto;
+        
+}
+.login-form{
+    width:300px;
+    margin-top:-300px;
+    
+    padding: 0 5px;
 }
 }
 @media only screen and (max-width:780px){

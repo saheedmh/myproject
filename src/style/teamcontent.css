@@ -24,7 +24,7 @@
         display:flex;
         flex-direction: column;
 
-        width:100vh;
+        
     }
     .card{
         width:200px;
@@ -36,7 +36,7 @@
         display:flex;
         flex-direction: column;
         margin-top:300px;
-        max-width:260px;
+        min-width:260px;
         margin-bottom:50px;
 
     
@@ -52,5 +52,35 @@
        }
     .card{
         max-width:250px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    
+    #groupss{
+        display:flex;
+        flex-direction: column;
+        margin-top:300px;
+        width:200px;
+        margin-bottom:50px;
+        margin-left:auto;
+        margin-right:auto;
+
+    
+
+    }
+    .team{
+       margin-top:100px; 
+       margin-bottom:-350px;
+    
+    }
+    .team > h1{
+        margin-bottom:50px;
+       }
+    .card{
+        max-width:200px;
+        margin-left: auto;
+        margin-right:auto;
     }
 }
