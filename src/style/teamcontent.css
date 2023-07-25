@@ -30,3 +30,27 @@
         width:200px;
     }
 }
+@media screen and (max-width:425px){
+    
+    #groupss{
+        display:flex;
+        flex-direction: column;
+        margin-top:300px;
+        max-width:260px;
+        margin-bottom:50px;
+
+    
+
+    }
+    .team{
+       margin-top:100px; 
+       margin-bottom:-350px;
+    
+    }
+    .team > h1{
+        margin-bottom:50px;
+       }
+    .card{
+        max-width:250px;
+    }
+}

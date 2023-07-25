@@ -7,7 +7,7 @@
    
 }
 form{
-    width: 60vh;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     margin:auto;
@@ -46,26 +46,13 @@ outline:none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:5px;
-    background-color: red;
+    
 
 }
 input[type=text], input[type=password] ::hove{
 transition: all 2s ease-in;
 }
-@media only screen and (max-width:425px){
-    .signup-container{
-        margin-top:370px;
-        
-    }
-    .btn{
 
-        margin-left: 40px;
-        margin-right: 100px;
-        margin-bottom:5px;
-    
-    
-    }
-}
 @media only screen and (max-width:780px){
     .signup-container{
         margin-top:370px;
@@ -76,3 +63,29 @@ transition: all 2s ease-in;
     
     }
 }
+@media only screen and (max-width:425px){
+    .signup-container{
+        margin-top:50px;
+        width:100vw;
+        
+    }
+    .signup-container > h1{
+        width:300px;
+        font-size:20px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .signup-container >#btnid{
+        padding: 20px;
+    
+    }
+    form{
+        width:320px;
+        padding:5px;
+    }
+    #btnId{
+        margin-left: auto;
+    }
+    
+}
+

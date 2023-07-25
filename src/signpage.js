@@ -70,7 +70,7 @@ const Signuppage = () => {
 
           
 
-          <button id="btnid" className='btn btn-primary m-4'>submit</button>
+          <button id="btnid" className='btn btn-primary ' id="btnId">submit</button>
           <p onClick={handleClick}>Already registered {" "} login in?</p>
 
           {flag &&(

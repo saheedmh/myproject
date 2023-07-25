@@ -193,20 +193,24 @@ color:#4A8CBB;
     .firstprogram-content{
         display:flex;
         flex-direction:column;
-         
-         width:425px;
-         margin-top:180px;
-
+        margin-bottom: 100px;
+    
+        margin-top:-200px;
+        
+         }
+    .main-header{
+        margin-top:-280px;
+        margin-bottom:200px;
     }
     .firstprogram-content > h1{
-        margin-left: auto;
-        margin-right:auto;
+       margin-right:300px;
         font-size:18px;
-        width:300px;
+       
+       
     }
     .firstprogram-content > img{
         margin-top:20px;
-        max-width:280px;
+        max-width:250px;
         margin-left:auto;
         margin-right:auto;
     }
@@ -227,14 +231,16 @@ color:#4A8CBB;
         grid-gap:5px;
         align-items:center;
         margin-right: 40px;
-    }
+            }
     .para > P{
-       
-        width: 300px;
+       margin-left:auto;
+       margin-right:auto;
+        width: 250px;
         display: flex;
-        font-size: 18px;
+        font-size: 14px;
         align-items: center;
-        background-color: white;
+        
+        
        }
        .prgrm-second-col > button{
         margin-bottom:120px;
@@ -335,6 +341,7 @@ color:#4A8CBB;
         margin-left:auto;
         margin-right:auto;
         
+        
        }
        .rows-image {
         width: 425px;
@@ -358,8 +365,7 @@ color:#4A8CBB;
         flex-direction:column;
          
          width:375px;
-         margin-top:180px;
-
+         
     }
     .prgrm-second-col > .para{
         max-width: 500px;
@@ -372,12 +378,7 @@ color:#4A8CBB;
         display: flex;
         flex-direction: column;
     }
-    .firstprogram-content > h1{
-        margin-left: auto;
-        margin-right:auto;
-        font-size:18px;
-        width:300px;
-    }
+    
     .firstprogram-content > img{
         margin-top:20px;
         max-width:280px;
@@ -505,7 +506,8 @@ color:#4A8CBB;
        .rows-text > p{
         font-size:16px;
         padding:10px;
-        min-width:300px;
+        width:300px;
+        color:black;
         margin-left:auto;
         margin-right:auto;
         
@@ -530,19 +532,19 @@ color:#4A8CBB;
         flex-direction:column;
          
          width:425px;
-         margin-top:260px;
+         
 
     }
     .firstprogram-content > img{
         margin-top:20px;
-        min-width:500px;
+        width:500px;
         margin-left:100px;
         margin-right:200px;
     }
     .firstprogram-content > h1{
-        margin-left: 200px;
+        margin-left:auto;
         margin-right:auto;
-        min-width: 400px;
+        width: 400px;
     
     }
 }
