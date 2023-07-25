@@ -1,6 +1,6 @@
 .team-group{
     width:100%;
-    box-sizing: border-box
+    
     
 }
 .team-group > h1{
@@ -18,6 +18,15 @@
     margin-top:20px;
 
 }
-#card{
+@media screen and (max-width:780px){
+    
+    #groupss{
+        display:flex;
+        flex-direction: column;
 
+        width:100vh;
+    }
+    .card{
+        width:200px;
+    }
 }

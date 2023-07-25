@@ -1,7 +1,7 @@
 
 
 import './style/card.css'
-import {card} from 'react-bootstrap/Card';
+//import {card} from 'react-bootstrap/Card';
 
 const Cards = () => {
     return (  

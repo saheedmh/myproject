@@ -36,23 +36,25 @@
     .card{
         display: flex;
         flex-direction: column;
-        flex-basis:320px;
+        
     }
 }
 
 @media only screen and (max-width:768px) {
     .card-group{
-        position: relative;
+        
         display: flex;
         flex-direction: column;
         margin-top:100px;
-        width: 100%;
+        width: 780px;
+        align-items: center;
+        justify-content: center;
+        
     }
     .card{
-        display: flex;
-    flex-wrap: nowrap;
-        
-
+        min-width:400px;
+        margin-left: 300px;
+        margin-right: 300px;
     }
 }
 
@@ -69,7 +71,7 @@
 
         top:-300px;}
     .card{
-       width: 80%;
+       width: 340px;
     }
     
 }

@@ -23,6 +23,7 @@ const Header = () => {
             <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'/loginpage'}>login</NavLink>
+            
             <button type='button' className='btn'>apply now</button>
             </div>
     <button className='mobile-menu-icon' onClick={() => setIsmobile(!ismobile)}>

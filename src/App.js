@@ -6,9 +6,8 @@ import Home from './homepage';
 import Program from './program';
 import Header from './header';
 import About from './about';
+import RegisterComponent from './registercomponent';
 
-import Student from './student';
-import Support from './support';
 import './App.css'
 
 function App() {
@@ -24,11 +23,8 @@ function App() {
       <Route path='program' element={<Program/>}></Route>
       <Route path='about' element={<About/>}>
       </Route>
-      
-    
-      <Route path='student' element={<Student/>}></Route>
-      <Route path='support' element={<Support/>}></Route>
       <Route path='signpage' element={<Signuppage/>}></Route>
+      <Route path='registercomponent' element={<RegisterComponent/>}></Route>
        
     
       

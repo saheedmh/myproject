@@ -1,111 +1,78 @@
 .signup-container{
-    background-color: #F4DDDD;
     
     width: 100%;
-    height:1000px;
+    height:100vh;
     margin-top:0px;
     
    
+}
+form{
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    border-radius:10px;
+    box-shadow: 2px 8px 10px 2px rgba(0, 0,0, 0.4);
+}
+label{
+    display: block;
+    margin-top:10px;
+
+    
+}
+input{
+    margin-left:20px;
+    width:300px;
+    padding:5px;
+    outline: none;
+    
+    
+}
+input::focus{
+border: 2px solid green;
+
+}
+input[type=text]{
+border-radius:5px;
+outline:none;
 }
 .signup-container > h1{
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
 }
-form{
-    background-color: white;
-    width: 28%;
-    height: 750px;
-    margin-top:40px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   margin:20px auto; 
-}
-form > h1{
-    width: 200px;
-    margin-top:40px;
-    margin-left: -10px;
-    font-size: 20px;
-    
-   }
-   .signup-form p{
-    margin-bottom: -10px;
+.btn{
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5px;
+    background-color: red;
 
-    
-   }
-.signup-form > :nth-child(3){
-    
-    padding:5px;
-    margin-top:30px;
-    width: 200px;
-    border-radius: 5px;
-    outline: none;
-    border:1px solid gray;
-    
 }
+input[type=text], input[type=password] ::hove{
+transition: all 2s ease-in;
+}
+@media only screen and (max-width:425px){
+    .signup-container{
+        margin-top:370px;
+        
+    }
+    .btn{
 
-
-
-.signup-form > .pass{
-    padding: 5px;
-    margin:10px auto;
-    width: 200px;
-    border-radius: 5px;
-    outline: none;
-    border:1px solid gray;
+        margin-left: 40px;
+        margin-right: 100px;
+        margin-bottom:5px;
+    
+    
+    }
 }
-.btn-id{
-    width: 210px;
-    padding: 5px;
-    background-color:  #4A8CBB;
-    color:white;
-    border-radius: 5px;
-    outline:none;
-    border:none;
-    text-transform: capitalize;
+@media only screen and (max-width:780px){
+    .signup-container{
+        margin-top:370px;
+        
+    }
+    .signup-container >#btnid{
+        padding: 20px;
+    
+    }
 }
-button{
-    width: 210px;
-    padding: 5px;
-    background-color:  #4A8CBB;
-    color:white;
-    border-radius: 10px;
-    outline:none;
-    border:none;
-    text-transform: capitalize;
-}
-#btn-id{
-    width: 210px;
-    padding: 5px;
-    background-color:  #4A8CBB;
-    color:white;
-    border-radius: 5px;
-    outline:none;
-    border:none;
-    text-transform: capitalize;
-}
-.login-fb{
-    width: 210px;
-    padding: 5px;
-    background-color:  #4A8CBB;
-    color:white;
-    border-radius: 5px;
-    outline:none;
-    border:none;
-    text-transform: capitalize;
-}
-   form .email{
-    width:200px;
-    padding:5px;
-    border-radius: 5px;
-    outline:none;
-    border:1px solid gray;
-   }
-   .link{
-    text-decoration: none;
-    margin-left:3px;
-   }
-  

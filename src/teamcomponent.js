@@ -4,9 +4,9 @@ import {card} from 'react-bootstrap/Card';
 import './style/teamcontent.css';
 const Teamcomponent = () => {
     return ( 
-        <div className="team-group ">
+        <div className="team">
         <h1 className="heading  ">our team</h1>
-        <div className="card-group " id='groupss'>
+        <div className="card-group cards" id='groupss'>
         <div className="card">
           <img src="./images/team1.png" className="card-img-top" alt="..." />
           <div className="card-body">
@@ -33,7 +33,6 @@ const Teamcomponent = () => {
             <h5 className="card-title">Partnerships & Communication </h5>
             <h5 className="card-title">Coordinator</h5>
             
-            <p className="card-text"></p>
             </div>
             </div>
         
