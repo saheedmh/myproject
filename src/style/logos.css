@@ -1,6 +1,6 @@
 .logo-header{
     width: 100%;
-    height: 300px;
+    min-height: 100%;
 }
 .logo-header > h1{
     text-transform: capitalize;
@@ -15,15 +15,16 @@
 }
 @media only screen and (max-width:768px){
     .logo-header{
-        height: 1400px;
+        min-height: 100vh;
         width: 100%;
         
-        margin-top:150px;
+        margin-top:-250px;
+        
        
     }
     .logo-header > h1{
         
-        margin-bottom:600px;
+        margin-bottom:0px;
     }
     .logo-image{
         display:flex;
@@ -32,64 +33,10 @@
     }
     .logo-image > img{
         width:200px;
-        margin-top:10px;
+        margin-top:15px;
         margin-left:auto;
         margin-right:auto;
     }
 }
 
 
-@media only screen and (max-width:375px){
-    .logo-header{
-        margin-top:-200px;
-        display: flex;
-        flex-direction: column;
-        min-width: 100%;
-        
-        align-items: center;
-        }
-    .logo-header > h1{
-        
-        margin-bottom:600px;
-    }
-    
-    .logo-image{
-        display:flex;
-        flex-direction: column;
-        width: 320px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .logo-image > img{
-        width:200px;
-        margin-top:10px;
-    }
-}
-
-
-@media only screen and (max-width:425px){
-    .logo-header{
-        margin-top:-200px;
-        display: flex;
-        flex-direction: column;
-        min-width: 100%;
-        
-        align-items: center;
-        }
-    .logo-header > h1{
-        
-        margin-bottom:600px;
-    }
-    
-    .logo-image{
-        display:flex;
-        flex-direction: column;
-        width: 320px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .logo-image > img{
-        width:200px;
-        margin-top:10px;
-    }
-}

@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "confirm_password": ""
+    },
+    {
+      "first_name": "usman",
+      "last_name": "ap",
+      "email": "usma@",
+      "password": "usam",
+      "passwrd_confirm": "usma",
+      "id": 2
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 6
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "menyagaseid2@gmail.com",
+      "id": 8
+    }
+  ]
+}

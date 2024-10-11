@@ -32,7 +32,7 @@
      top:5%;
      display: flex;
      flex-direction: column;
-     width: 425px;
+     max-width: 425px;
      
      padding: 40px;
      }
@@ -89,7 +89,7 @@
     }
 }
  
-@media only screen and (max-width:375px){
+@mdia only screen and (max-width:375px){
     .text-div{
      display:flex;
      flex-direction: column;

@@ -22,6 +22,8 @@ const Header = () => {
             <NavLink className='link' style={navlinkstyle} to={'/program'} >the program</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
+            <NavLink className='link' style={navlinkstyle} to={'register'}>register</NavLink>
+            
             <NavLink className='link' style={navlinkstyle} to={'/loginpage'}>login</NavLink>
             
             <NavLink className='link' style={navlinkstyle} to={'/registercomponent'}><button type='button' className='btn'>apply now</button></NavLink>
@@ -33,8 +35,7 @@ const Header = () => {
         <i className="fa fa-bars"></i> 
     )}
 </button>
-      <marquee behavior="" direction="horinzontal"><h1>Welcome To HackYourFuture Institute</h1></marquee>
-  
+      
         </div>
         
     

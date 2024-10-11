@@ -6,14 +6,16 @@ import Cards from './card';
 import Logos from './logo';
 import Contactus from './contactUs';
 import Footer from './footer';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import Staff from './staffimage';
-const Home = () => {
+import React, {Component, useEffect} from 'react';
+import axios from 'axios';
+
+const Home = () =>{
+    
     return ( 
         <div className="homepage">
-        
-    
-    <Staff/>
+          <Staff/>
     <Firstcontent/>
     <Secondcontent/>
     <Fourthcomponent/>
@@ -24,5 +26,5 @@ const Home = () => {
         </div>
      );
 }
- 
+
 export default Home;

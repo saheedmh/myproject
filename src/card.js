@@ -6,6 +6,7 @@ import './style/card.css'
 const Cards = () => {
     return (  
         <div className="card-group">
+              <h2 style={{textTransform:"capitalize"}}>our teams</h2>
         <div className="card">
           <img src="./images/Ramzi.png" className="card-img-top" alt="..." />
           <div className="card-body">
@@ -26,6 +27,7 @@ const Cards = () => {
             </div>
         </div>
         <div className="card">
+  
           <img src="./images/Edwardo.png" className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">Edouardo - Capgemini</h5>
