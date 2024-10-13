@@ -33,9 +33,10 @@
 }
 .prgrm-second-col >button{
     background-color:#4A8CBB ;
-    height: 40px;
-    width:120px;
-    padding:5px;
+    color:#fff;
+    padding:10px 30px;
+    outline:none;
+border:none;
     margin-top:150px;
     margin-right: 300px;
     border-radius: 4px;
@@ -92,6 +93,7 @@ margin-top:50px;
 }
 .third-col-text > button{
 background-color: #4A8CBB;
+
 
 }
 .third-col-text > :nth-child(2){
@@ -356,7 +358,7 @@ color:#4A8CBB;
 }
 
 
-@media only screen and (max-width:375px) {
+@media oly screen and (max-width:375px) {
     .firstprogram-content{
         display:flex;
         flex-direction:column;
@@ -527,21 +529,38 @@ color:#4A8CBB;
     .firstprogram-content{
         display:flex;
         flex-direction:column;
-         
-         width:425px;
+        margin-top:350px;
+        min-height: 100%;
+        
+         min-width:100%;
          
 
     }
     .firstprogram-content > img{
         margin-top:20px;
-        width:500px;
-        margin-left:100px;
-        margin-right:200px;
+        min-width:80%;
+        
     }
     .firstprogram-content > h1{
         margin-left:auto;
         margin-right:auto;
-        width: 400px;
+        min-width: 100%;
     
+    }
+    .prgrm-second-col{
+        
+    }
+    .para{
+        margin-iline:auto;
+        min-width: 100%;
+        text-align: center;
+    }
+    .para > p{
+    
+       margin-inline:auto;
+       
+        font-size:18px;
+        padding:0 5px;
+
     }
 }

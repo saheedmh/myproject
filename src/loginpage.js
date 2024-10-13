@@ -71,12 +71,12 @@ const   Loginpage = ()=>{
             
             <div className='form-group'>
             <label htmlFor="">username</label>
-            <input type="text" className='form control' placeholder='userName' value={id} onChange={e => setId(e.target.value)} />
+            <input type="text" className='form control' placeholder='' value={id} onChange={e => setId(e.target.value)} />
           </div>
 
              <div className='form-group'>
             <label htmlFor="">password</label>
-            <input type="text" className='form control' placeholder='userName' value={password} onChange={e => setpassword(e.target.value)} />
+            <input type="text" className='form control' placeholder='' value={password} onChange={e => setpassword(e.target.value)} />
           </div>
             <button  className='btn btn-lg bg-primary text-white' type='submit'>login</button><br></br>
             <Link className="btn btn-success" to={'./signpage'}>new users</Link>

@@ -38,30 +38,30 @@ export default class RegisterComponent extends Component {
     
     <div className='form-group'>
       <label htmlFor="">First Name</label>
-      <input type="text" className='form control' placeholder='First Name' onChange={e => this.firstName = e.target.value} />
+      <input type="text" className='form control' placeholder='' onChange={e => this.firstName = e.target.value} />
     </div>
 <br /><br />
     <div className='form-group'>
       <label htmlFor="">Last Name</label>
-      <input type="text" className='form control' placeholder='Last Name'  onChange={e => this.lastname = e.target.value}/>
+      <input type="text" className='form control' placeholder=''  onChange={e => this.lastname = e.target.value}/>
     </div>
 <br /><br />
     <div className='form-group'>
       <label htmlFor="">Email</label>
-      <input type="text" className='form control' placeholder='Email' onChange={e => this.email =e.target.value}/>
+      <input type="text" className='form control' placeholder='' onChange={e => this.email =e.target.value}/>
     </div>
     <br /><br />
 
     <div className='form-group'>
       <label htmlFor="">Password</label>
-      <input type="text" className='form control' placeholder='Password' onChange={e => this.password = e.target.value} />
+      <input type="text" className='form control' placeholder='' onChange={e => this.password = e.target.value} />
     </div>
     <br /><br />
 
 
     <div className='form-group'>
       <label htmlFor="">confirmPassword</label>
-      <input type="text" className='form control' placeholder='confirmPassword' onChange={e => this.confirmpassword = e.target.value} />
+      <input type="text" className='form control' placeholder='' onChange={e => this.confirmpassword = e.target.value} />
     </div>
     <br /><br />
 
