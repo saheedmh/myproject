@@ -11,29 +11,35 @@ import Form from './Form';
 import Getaxios from './getpost';
 import {useState, useEffect} from 'react';
 import api from './api/post';
-
+import NavScrollExample from './navsbar.js'
+import Navs from './navba.js';
 
 import './App.css'
+
 //import HocAbout from './HocAbout';
 //import Hodtext from './Hodtext';
 
 function App() {
-  const [post, setpost]= useState(false)
+  //const [post, setpost]= useState(false)
  
   return (
     <BrowserRouter>
-    <div className="App">
-    <Header/>
-    {/**<HocAbout/>**/}
     <div>
+    {/**<Navs/>**/}
+<Header/>
+    
+   
+    
+  
+    {/**<div>
     {
-      post?<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores saepe ea iusto. Aspernatur, explicabo qui? Eum, recusandae autem accusantium ipsa, fugiat labore mollitia quidem, voluptatibus et asperiores provident optio!</h2>
+      post?<h2>lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores saepe ea iusto. Aspernatur, explicabo qui? Eum, recusandae autem accusantium ipsa, fugiat labore mollitia quidem, voluptatibus et asperiores provident optio!</h2>
   :null
     }
     <button onClick={()=>setpost(!post)}>toggle</button>
 </div>
-      <Routes>
-      
+     **/}
+     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/program' element={<Program/>}></Route>
       <Route path='/Form' element={<Form/>}></Route>
@@ -43,16 +49,16 @@ function App() {
       </Route>
       {/**<Route path='/Hodtext' element={<Hodtext/>}>
       </Route>
-      **/}
+      
       <Route path='/signpage' element={<Signuppage/>}></Route>
       <Route path='/register' element={<RegisterComponent/>}></Route>
       
       
        <Route path='loginpage' element={<Loginpage/>}></Route>
-       
+       **/}
       </Routes>
       
-    
+      
     </div>
     </BrowserRouter>
   );

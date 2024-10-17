@@ -197,7 +197,7 @@ color:#4A8CBB;
         flex-direction:column;
         margin-bottom: 100px;
     
-        margin-top:100px;
+        margin-top:10px;
         
          }
     
@@ -358,178 +358,11 @@ color:#4A8CBB;
 }
 
 
-@media oly screen and (max-width:375px) {
-    .firstprogram-content{
-        display:flex;
-        flex-direction:column;
-         
-         width:375px;
-         
-    }
-    .prgrm-second-col > .para{
-        max-width: 500px;
-        line-height: 24px;
-        color:black;
-        padding: 10px;
-        text-align: justify;
-        margin-left: 40px;
-        position:static;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .firstprogram-content > img{
-        margin-top:20px;
-        max-width:300px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .prgrm-second-col{
-        width: 375px;
-        display: flex;
-        
-        min-height: 560px;
-       flex-direction: column;
-       align-items: center;
-       
-    }
-    .para{
-        display:flex;
-
-        width: 16rem;
-        margin-top:10px;
-        grid-gap:5px;
-        align-items:center;
-        margin-right: 40px;
-    }
-    .para > P{
-       
-        width: 300px;
-        display: flex;
-        font-size: 18px;
-        align-items: center;
-        background-color: white;
-       }
-       .prgrm-second-col > button{
-        margin-bottom:120px;
-        margin-left:auto;
-        margin-top:-20px;
-        margin-right:auto;
-       }
-       .seconds-cols{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-        
-       }
-       .first-row{
-        width:350px;
-       }
-       .first-row > p{
-        max-width: 320px;
-        margin-left: auto;
-        margin-right:auto;
-       }
-       .checkbox-div{
-        width:355px;
-        margin-left: auto ;
-        line-height: 20px;
-        margin-right:auto;
-        padding:10px;
-
-       }
-       .third-cols{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-       }
-       .third-col-text{
-        
-        width: 300px;
-        margin : 0 0 0 50px;
-       }
-       .third-cols .image{
-        width: 375px;
-       }
-       .third-cols .image > img{
-        width: 300px;
-       }
-       .fourth-row{
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-        align-items: center;
-       }
-       .fourth-text{
-        width: 375px;
-       }
-       .fourth-text > p{
-        margin-left:auto;
-        margin-right:auto;
-        width:300px;
-        font-size: 16px;
-        padding:10px;
-        line-height: 30px;
-        background-color: white;
-       }
-       .images-divs{
-        width:375px;
-
-       }
-       .image-divs > img{
-        width:340px;
-        margin-left:20px;
-        margin-right:auto;
-       }
-       #btnsid{
-        padding:10px 20px 10px 20px;
-        font-size:16px;
-        
-       }
-       .fifth-row {
-        display: flex;
-        flex-direction: column;
-        width: 375px;
-       } 
-       .rows-text{
-        display: flex;
-        flex-direction: column;
-        width:375px;
-        
-        align-items: center;
-        
-       }
-       .rows-text > h3{
-        width: 300px;
-       }
-       .rows-text > p{
-        font-size:16px;
-        padding:10px;
-        width:300px;
-        color:black;
-        margin-left:auto;
-        margin-right:auto;
-        
-       }
-       .rows-image {
-        width: 375px;
-
-       }
-       .rows-image > img{
-        width: 360px;
-        margin-left:auto;
-        margin-right:90px;
-       }
-       .rows-text > :nth-child(2){
-        line-height: 25px;
-        width: 330px;
-       }   
-}
 @media only screen and (max-width:780px) {
     .firstprogram-content{
         display:flex;
         flex-direction:column;
-        margin-top:350px;
+        
         min-height: 100%;
         
          min-width:100%;
@@ -537,7 +370,7 @@ color:#4A8CBB;
 
     }
     .firstprogram-content > img{
-        margin-top:20px;
+        margin-top:5px;
         min-width:80%;
         
     }
@@ -547,11 +380,9 @@ color:#4A8CBB;
         min-width: 100%;
     
     }
-    .prgrm-second-col{
-        
-    }
+    
     .para{
-        margin-iline:auto;
+        
         min-width: 100%;
         text-align: center;
     }

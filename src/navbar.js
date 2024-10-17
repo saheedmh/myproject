@@ -1,6 +1,6 @@
 import './style/header.css';
 import {Link} from 'react-router-dom';
-const Nav = () => {
+const Navf = () => {
     return (  
         <>
         <div className="main-header">
