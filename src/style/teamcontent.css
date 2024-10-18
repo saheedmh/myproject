@@ -18,6 +18,10 @@
     margin-top:20px;
 
 }
+.team > h1{
+    
+}
+
 @media screen and (max-width:780px){
     
     #groupss{
@@ -35,7 +39,7 @@
     #groupss{
         display:flex;
         flex-direction: column;
-        margin-top:300px;
+        margin-top:170px;
         width:100%;
         margin-bottom:50px;
 

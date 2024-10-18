@@ -1,5 +1,5 @@
 import Aboutcontent from "./aboutcontent";
-import Footer from "./footer";
+
 import SecondCol from "./secondscol";
 import Teamcomponent from "./teamcomponent";
  
@@ -9,7 +9,7 @@ const About = () => {
             <Aboutcontent/>
             <SecondCol/>
             <Teamcomponent/>
-            <Footer/> 
+            
 
         </div>
      );

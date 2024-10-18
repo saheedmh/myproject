@@ -1,7 +1,7 @@
 import './style/programcontent.css'
 const ProgramFirstContent = () => {
     return ( 
-        <div className="program-first-content">
+        <div className="program-first-content" >
             <div className="firstprogram-content ">
                 <h1>Start your new career today!</h1>
                 <img src="./images/program-image.png" alt="" />
@@ -21,23 +21,28 @@ Class starts: end September 2021 (Applications CLOSED)
 
 Next call for Applications: to be announced</p>
 </div>
-<button>apply</button>
        </div>
        <div className="seconds-cols">
         <div className="first-row">
-        <h2>Who can apply?</h2>
+        
         <p>We teach motivated refugees and newcomers with limited access to education or the labor market who want to start their career in web development. The course is open to anyone staying in Belgium. Women are strongly encouraged to apply!</p>
         </div>
 <div className="checkbox-div">
+<h2>Who can apply?</h2>
     <input type="checkbox" /> You’re +18 years old 
 <br /><br />
+
     <input type="checkbox"  /> You’re extremely motivated to start a career in web development. <br /><br />
     <input type="checkbox"  /> You speak English at an intermediate level. <br /><br />
     <input type="checkbox"  /> You can study a minimum of 25 hours per week.
  <br /><br />
  <input type="checkbox" /> You are recognise as a refugee or writing for your recognition. <br /><br />
  <input type="checkbox"  /> You a migrant with limited access to education or the labor market.
+
+ <br />
+ <button  style={{}}>apply</button>
 </div>
+
        </div>
 
        <div className="third-cols">

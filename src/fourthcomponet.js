@@ -3,7 +3,8 @@ const Fourthcomponent = () => {
     return ( 
         <div className="main-div">
         <div className="header">
-        <h1>our core values</h1></div>
+        <h1>our core values</h1>
+        </div>
             <div className="firs-row">
             <div className="cols">
             <img src="./images/vector.png" alt="" />

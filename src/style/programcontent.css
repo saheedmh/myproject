@@ -1,6 +1,7 @@
 .firstprogram-content{
     display: flex;
     justify-content: space-around;
+    margin-top:30px;
     
 }
 .firstprogram-content h1{
@@ -13,32 +14,31 @@
 
 }
 .prgrm-second-col{
-    display: flex;
-    justify-content: space-between;
-    margin-top:20px;
+    
+    
+    width: 100%;
     background-image: url('../../public/images/bgrnd-image.jpg');
     background-repeat: no-repeat;
     background-position: cover;
+    
 }
 .prgrm-second-col > .para{
-    max-width: 500px;
+    
     line-height: 24px;
     color:white;
     padding: 10px;
-    text-align: justify;
-    margin-left: 40px;
-    position:static;
-    display: flex;
-    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    
 }
-.prgrm-second-col >button{
+.checkbox-div > button{
     background-color:#4A8CBB ;
     color:#fff;
     padding:10px 30px;
     outline:none;
-border:none;
-    margin-top:150px;
-    margin-right: 300px;
+     border:none;
+    margin-left: 200px;
+    margin-bottom:10px;
     border-radius: 4px;
     text-transform: uppercase;
 }
@@ -70,6 +70,7 @@ border:none;
     padding: 10px;
     line-height: 25px;
     text-align: justify;
+    margin-top:100px;
 }
 .third-cols{
     display: flex;
@@ -200,7 +201,11 @@ color:#4A8CBB;
         margin-top:10px;
         
          }
-    
+         .prgrm-second-col > .para{
+            display: flex;
+            flex-direction: column;
+            min-width: 375px;
+         }
     .firstprogram-content > h1{
        margin-right:300px;
         font-size:18px;

@@ -6,7 +6,10 @@ import './style/card.css'
 const Cards = () => {
     return (  
         <div className="card-group">
-              <h2 style={{textTransform:"capitalize"}}>our teams</h2>
+        <div className="card-header">
+        <h2 style={{textTransform:"capitalize", textAlign:"center"}}>our teams</h2>
+        </div>
+            <div className="card-div">
         <div className="card">
           <img src="./images/Ramzi.png" className="card-img-top" alt="..." />
           <div className="card-body">
@@ -35,6 +38,7 @@ const Cards = () => {
             
             <p className="card-text">"Hack your future definitely built the bridge between the unknown and the doors of my personal success, writing code is now part of my life and I will never forget the lessons learned and time spent with the fellow students and coaches. A big thank you!".".</p>
             </div>
+        </div>
         </div>
       </div>
 

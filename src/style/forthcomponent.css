@@ -2,6 +2,10 @@
     width:100%;
     
 }
+.header{
+  text-align: center;
+  
+}
 .firs-row{
     display: flex;
     justify-content: space-around;
@@ -92,6 +96,7 @@ font-size: 25px;
       top:40px;
     
   }
+
   
   .header > h1{
   margin-left: auto;

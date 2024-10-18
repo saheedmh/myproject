@@ -46,7 +46,7 @@
 .seconds-row > h1{
     font-size: 20px;
     text-transform: uppercase;
-    
+    background-color: red;
     margin-left: 20px;
 
 }

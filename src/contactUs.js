@@ -1,4 +1,4 @@
-import Footer from './footer';
+
 import './style/contact.css'
 const Contactus = () => {
     return ( 
@@ -21,7 +21,7 @@ const Contactus = () => {
             </form>
 
         </div>
-<Footer></Footer>
+
         </>
      );
 }
