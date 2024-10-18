@@ -2,7 +2,7 @@
 
 import {NavLink} from 'react-router-dom';
 
-const Navink =() =>{
+const Navlink =() =>{
 
     const navlinkstyle = ()=>{
 

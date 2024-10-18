@@ -4,8 +4,7 @@ import Fourthcomponent from './fourthcomponet';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './card';
 import Logos from './logo';
-import Contactus from './contactUs';
-import Footer from './footer';
+
 import {Link, useNavigate} from 'react-router-dom';
 import Staff from './staffimage';
 import React, {Component, useEffect} from 'react';
@@ -21,8 +20,8 @@ const Home = () =>{
     <Fourthcomponent/>
     <Cards/>
     <Logos/>
-    <Contactus/>
-    <Footer/> 
+    
+    
         </div>
      );
 }

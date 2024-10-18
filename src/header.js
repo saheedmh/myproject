@@ -13,6 +13,8 @@ const Header = () => {
     fontWeight: isActive ? 'bold' : 'normal',
     textDecoration:isActive ? 'underline' : 'none',
     background:isActive ? "#4A8CBB" : "none",
+    borderRadius:isActive ? "10px" : "0px",
+    marginTOp:isActive ? "10px" :"0"
     
  }
 }
@@ -26,7 +28,9 @@ const Header = () => {
           
            
           <NavLink className='link' style={navlinkstyle} to='/' >home</NavLink>
-            <NavLink className='link'   style={{whiteSpace:'nowrap',}  }  to={'/program'} >the program</NavLink>
+            <NavLink className='link'   style={navlinkstyle  } id='navlink__program' to={'/program'} >the program</NavLink>
+            <NavLink className='link'   style={navlinkstyle  } id='navlink__program' to={'/contactUs'} >contact us</NavLink>
+            
             <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'register'}>register</NavLink>

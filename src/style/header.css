@@ -71,8 +71,14 @@ Link > :hover{
     width:75%;
     
 }
+ #navlink__program{
 
+    white-space: nowrap;
+}
 
+.nav-link:hover{
+    color:white;
+}
 @media only screen and (max-width:425px){
     .header-logo{
         display: flex;

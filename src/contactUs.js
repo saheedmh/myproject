@@ -1,6 +1,8 @@
+import Footer from './footer';
 import './style/contact.css'
 const Contactus = () => {
     return ( 
+        <>
         <div className="contact-div">
        <div className='side-row'>
         <h1>contact us</h1>
@@ -17,7 +19,10 @@ const Contactus = () => {
              <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
             <button type='button'>send</button>
             </form>
+
         </div>
+<Footer></Footer>
+        </>
      );
 }
  

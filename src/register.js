@@ -2,7 +2,11 @@
 import axios from 'axios';
 import React, { useEffect, Component } from 'react'
 
+import './style/signup.css';
 export default class RegisterComponent extends Component {
+
+
+  
     handleSubmit =(e) => {
         e.preventDefault();
         const data = {
@@ -26,17 +30,20 @@ export default class RegisterComponent extends Component {
             )
         
        }
-  render(){
+  render()
+  
+  
+  {
     return (
       <div>
          <h1>welcome to HackYourFuture institute</h1>
-<form  onSubmit={this.handleSubmit} className="signup-form bg-white">
+<form  onSubmit={this.handleSubmit} className="signup-form bg-white"  style={{display:"flex", justifyContent:"center", alignItems:'center',width:'50%'}}>
      
   
     <h3>sign up</h3>
 
     
-    <div className='form-group'>
+    <div className='form-group'  >
       <label htmlFor="">First Name</label>
       <input type="text" className='form control' placeholder='' onChange={e => this.firstName = e.target.value} />
     </div>

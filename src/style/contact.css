@@ -30,9 +30,13 @@
     top:-40px;
     background-color: #E1E9F6;
     bottom:80px;
+    justify-content: center;
+    align-items: center;
     border-top-left-radius: 20px;
     width: 400px;
+    margin-top: 30px;
     border-bottom-left-radius: 20px;
+    margin-left: 30px;
    
 }
 .contact-div > :nth-child(1){

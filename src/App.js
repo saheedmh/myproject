@@ -12,9 +12,11 @@ import Getaxios from './getpost';
 import {useState, useEffect} from 'react';
 import api from './api/post';
 import NavScrollExample from './navsbar.js'
+import Contactus from './contactUs.js';
 import Navs from './navba.js';
 
 import './App.css'
+import Footer from './footer.js';
 
 //import HocAbout from './HocAbout';
 //import Hodtext from './Hodtext';
@@ -42,21 +44,26 @@ function App() {
      <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/program' element={<Program/>}></Route>
+      <Route path='/contactUs' element={<Contactus/>}></Route>
+      
       <Route path='/Form' element={<Form/>}></Route>
       <Route path='/about' element={<About/>}>
       </Route>
       <Route path='/getpost' element={<Getaxios/>}>
+
+
       </Route>
+      <Route path='loginpage' element={<Loginpage/>}></Route>
+      <Route path='/signpage' element={<Signuppage/>}></Route>
+      <Route path='/register' element={<RegisterComponent/>}></Route>
+      </Routes>
+      
       {/**<Route path='/Hodtext' element={<Hodtext/>}>
       </Route>
       
-      <Route path='/signpage' element={<Signuppage/>}></Route>
-      <Route path='/register' element={<RegisterComponent/>}></Route>
       
       
-       <Route path='loginpage' element={<Loginpage/>}></Route>
        **/}
-      </Routes>
       
       
     </div>

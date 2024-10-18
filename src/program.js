@@ -7,7 +7,7 @@ const Program = () => {
         <div className="program-div">
             <ProgramFirstContent/>
             <Contactus/>
-            <Footer/> 
+        
     
         </div>
      );
