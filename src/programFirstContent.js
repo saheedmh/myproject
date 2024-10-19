@@ -59,7 +59,7 @@ Next call for Applications: to be announced</p>
        
        <div className="fourth-row">
             <div className="fourth-text">
-                <h4>final project</h4>
+                <h4 style={{textAlign:"center"}}>final project</h4>
                 <p>We challenge our graduates to a 6-weeks final project sprint, where they build open source projects with a social impact. During the final project spring, the students get acquainted with new skills, discover new ways to collaborate, processes and learn about the industry best practices that are expected in the local labor market.</p>
                </div>
                 <div className="heading-text">

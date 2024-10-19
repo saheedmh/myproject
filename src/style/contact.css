@@ -8,6 +8,7 @@
     position: relative;
     outline:none;
     border:none;
+    margin-top:30px;
     
 
 }
@@ -27,7 +28,7 @@
     height: 450px;
     position: absolute;
     left:40px;
-    top:-40px;
+    top:30px;
     background-color: #E1E9F6;
     bottom:80px;
     justify-content: center;

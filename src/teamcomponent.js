@@ -18,11 +18,11 @@ const Teamcomponent = () => {
             </div>
        
             <div className="card">
-          <img src="./images/team3.png" className="card-img-top" alt="..." />
+          <img src="./images/saheed.jpg" className="card-img-top" alt="..." style={{height:"200px", width:"300px"}} />
           <div className="card-body">
-            <h5 className="card-title">Evan Cole</h5>
-            <h5 className="card-title">General </h5>
-            <h5 className="card-title">Coordinato </h5>
+            <h5 className="card-title">seidu menyaga</h5>
+            <h5 className="card-title">Coordinator </h5>
+            <h5 className="card-title">I.T consutant </h5>
             <p className="card-text"></p>
             </div>
             </div>

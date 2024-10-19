@@ -80,7 +80,7 @@ if(isValidate()){
       <form  onSubmit={handleSubmit} className="signup-form bg-white">
            
         
-          <h3>Sign Up</h3>
+          <h3 style={{textAlign:"center"}}>Sign Up</h3>
 
           
           <div className='form-group'>

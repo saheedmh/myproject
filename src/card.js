@@ -11,10 +11,10 @@ const Cards = () => {
         </div>
             <div className="card-div">
         <div className="card">
-          <img src="./images/Ramzi.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Ramzi - AppTweak</h5>
-            <h5 className="card-title">UX/UI Designer</h5>
+        <img src="./images/saheed.jpg" className="card-img-top" alt="..." style={{height:"200px", width:"300px"}} />
+        <div className="card-body">
+            <h5 className="card-title">seidu menyaga</h5>
+            <h5 className="card-title">front-end instructor</h5>
             
             <p className="card-text">Our program is free of charge, although we ask for strong commitment during our 7 month-journey. And you know what? Many alumni stay actively involved!.</p>
             </div>

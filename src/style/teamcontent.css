@@ -11,15 +11,15 @@
     font-size:22px;
     padding:5px;
 }
-.team-group > #groupss{
+ #groupss{
     margin-bottom:70px;
-    
+    display: flex;
     height: 400px;
     margin-top:20px;
 
 }
 .team > h1{
-    
+    text-align: center;
 }
 
 @media screen and (max-width:780px){

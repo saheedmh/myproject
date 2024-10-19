@@ -36,7 +36,7 @@ export default class RegisterComponent extends Component {
   {
     return (
       <div>
-         <h1>welcome to HackYourFuture institute</h1>
+         
 <form  onSubmit={this.handleSubmit} className="signup-form bg-white"  style={{display:"flex", justifyContent:"center", alignItems:'center',width:'50%'}}>
      
   

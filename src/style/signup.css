@@ -71,17 +71,16 @@ transition: all 2s ease-in;
         
     }
     .signup-container > h1{
-        width:300px;
-        font-size:20px;
-        margin-left: auto;
-        margin-right:auto;
+        
+        font-size:18px;
+        color:red;
     }
     .signup-container >#btnid{
         padding: 20px;
     
     }
     form{
-        width:320px;
+        min-width:80%;
         padding:5px;
     }
     #btnId{

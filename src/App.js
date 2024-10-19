@@ -6,7 +6,6 @@ import Home from './homepage';
 import Program from './program';
 import Header from './header';
 import About from './about';
-import RegisterComponent from './register';
 import Form from './Form';
 import Getaxios from './getpost';
 import {useState, useEffect} from 'react';
@@ -55,7 +54,6 @@ function App() {
       </Route>
       <Route path='loginpage' element={<Loginpage/>}></Route>
       <Route path='/signpage' element={<Signuppage/>}></Route>
-      <Route path='/register' element={<RegisterComponent/>}></Route>
       </Routes>
       
       {/**<Route path='/Hodtext' element={<Hodtext/>}>

@@ -34,7 +34,7 @@ const Header = () => {
             <NavLink className='link'   style={navlinkstyle  } id='navlink__program' to={'/contactUs'} >contact us</NavLink>
             
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
-            <NavLink className='link' style={navlinkstyle} to={'register'}>register</NavLink>
+            
             
             <NavLink className='link' to={'/loginpage'}>login</NavLink>
             

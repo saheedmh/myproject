@@ -18,6 +18,9 @@ contact@hackyourfuture.be
             <a href="https://intagram.com"><FontAwesomeIcon className='icon text-white' icon={faInstagram}/></a>
             <a href="https://twitter.com"> <FontAwesomeIcon className='icon text-white' icon={faTwitter}/></a>
             </div>
+            <div className="footer__copyright" >
+    <small> saheed 2024, web developer. &copy; right, all right reserved</small>
+  </div>
            </footer>
     );
 }

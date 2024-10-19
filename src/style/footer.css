@@ -2,7 +2,7 @@ footer{
     display:flex;
     justify-content: space-between;
     margin-top:40px;
-    height: 200px;
+    min-height: 300px;
     position: relative;
     width:100%;
     background-color:#00828c;
@@ -44,6 +44,19 @@ footer > .social-icon{
     position:relative;
     justify-content: space-around;
     width: 400px;
+}
+.footer__copyright{
+    position:absolute;
+    top: 65% ;
+    left:20%;
+    right:50%;
+    width:100%;
+    white-space: nowrap;
+
+
+}
+.footer__copyright{
+    font-size: 14px;
 }
 @media only screen and (max-width : 375px){
     .footer{
@@ -96,61 +109,6 @@ footer::before{
 }
 
 
-@media only screen and (max-width : 320px){
-    .footer{
-        margin-top:100px;
-        margin-left:-50px;
-        display: flex;
-        margin-bottom:50px;
-        flex-direction: column;
-        margin-right:50px;
-        max-width: 300px;
-    
-    }
-    footer::before{
-        content:"";
-        position:absolute;
-        bottom:0;
-        top:400px;
-        max-width: 300px;
-        border-bottom:2px solid gray;
-    
-    }
-    .footer-text{
-        max-width:300px;
-    
-      
-      max-width:300px;
-      margin-left:50px;
-    }
-    .footer-text > h1{
-        max-width:375px;
-        text-align: center;
-        margin-left:10px;
-        font-size: 14px;
-        max-width:270px;
-
-    }
-    .footer-text > p{
-        max-width:290px;
-        text-align: center;
-        margin-left:10px;
-        font-size: 12px;
-
-    }
-    .social-icon{
-        width:200px;
-        
-        margin-left:80px;
-        display: flex;
-        max-width: 240px;
-        
-    }
-    .icon{
-       margin:0 -50px 0 -60px; 
-       cursor: pointer;
-    }
-}
 
 @media only screen and (max-width : 780px){
     .footer{
@@ -163,6 +121,18 @@ footer::before{
         flex-basis: 100%;
     
     }
+
+    .footer__copyright{
+    margin-top:40px;
+margin-right: 40px;   
+margin-right:40px;
+    
+    }
+    .foter__copyright{
+        font-size: 14px;
+        text-align: center;
+    }
+    
     .footer-text{
         max-width:300px;
     
