@@ -65,7 +65,7 @@ function App() {
       
        **/}
       
-      
+      <Contactus/>
        <Footer></Footer>
     </div>
     </BrowserRouter>

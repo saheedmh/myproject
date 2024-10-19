@@ -46,7 +46,7 @@
 .seconds-row > h1{
     font-size: 20px;
     text-transform: uppercase;
-    background-color: red;
+
     margin-left: 20px;
 
 }
@@ -54,33 +54,7 @@
    min-width: 350px;
    line-height: 25px;
 }
-@media screen and (max-width:375px){
-    .secondcol{
-        display:flex;
-        flex-direction: column;
-        max-width: 375px;
-        gap:10px;
-    }
-    .firsts-row{
-        display: flex;
-        flex-direction: column;
-        max-width: 280px;
-     }
-     .firsts-row > p{
-        min-width:180px;
-        
-     }
-     .seconds-row{
-        
-        max-width:280px;
-     }
-     .seconds-row > p{
-        min-width: 230px;
-        
-     }
-     
-     
-}
+
 
 @media screen and (max-width:786px){
     .secondcol{

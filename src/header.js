@@ -29,9 +29,10 @@ const Header = () => {
            
           <NavLink className='link' style={navlinkstyle} to='/' >home</NavLink>
             <NavLink className='link'   style={navlinkstyle  } id='navlink__program' to={'/program'} >the program</NavLink>
+            <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
+            
             <NavLink className='link'   style={navlinkstyle  } id='navlink__program' to={'/contactUs'} >contact us</NavLink>
             
-            <NavLink className='link' style={navlinkstyle} to={'/about'}>about</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'signpage'}>signUp</NavLink>
             <NavLink className='link' style={navlinkstyle} to={'register'}>register</NavLink>
             
@@ -48,9 +49,9 @@ const Header = () => {
      
     
      
+
         </div>
-        
-     
+      <marquee  >welcome to Hack your future I.T Institute</marquee>
     </>
     
     );

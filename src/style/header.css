@@ -125,7 +125,12 @@ Link > :hover{
      width:100px;
     }
     
-    
+    marquee{
+       color: #ffff;
+        font-size:20px;
+        margin-top:20px;
+        background-color: black;
+    }
     .staff-image{
         display: flex;
         

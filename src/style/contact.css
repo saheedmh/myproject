@@ -103,13 +103,13 @@ textarea{
 }
 input:focus + label{
 transform: translateY(-18px);
-color:#ff652f
+
 }
 
 @media only screen and (max-width:780px){
     .contact-div{
         margin-left:20px;
-        margin-top:500px;
+        margin-top:100px;
         width:100%;
     }
     .contact-form > button{
@@ -120,21 +120,23 @@ color:#ff652f
     .side-row{
         
         margin-right: 100px;
+        max-width:80%;
     }
-    .ide-row > h1{
-        font-size: 12px;
-        margin-right: 70px;
-        margin-left: -60px;
+    .side-row > h1{
+        
+        
+        margin-left: 60px;
+        text-align: center;
     }
     .side-row > p{
         color:white;
-        margin-right: 45px;
-  font-size: 18px;
-        margin-inline:auto;
+        
+        font-size: 18px;
+        margin-left:80px;
         text-align: center;
     }
     .contact-form{
-        width: 250px;
+        max-width: 80%;
         margin-left:auto;
         margin-top:300px;
     }
